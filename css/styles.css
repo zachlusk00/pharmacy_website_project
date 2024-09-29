@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*NAVIGATION BAR*/
+.navbar {
+    background: darkslategray;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1 {
+    font-size: 30px;
+    padding-left: 15px;
+    color: rgb(255, 174, 0);
+}
+#name_span {
+    color: rgb(245, 201, 135);
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+.navbar li a {
+    color: rgb(212, 184, 104);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+.navbar li a:hover {
+    color: rgb(175, 135, 24);
+}
+.header {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(42, 54, 54);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.header h1 {
+    font-size: 60px;
+    color: rgb(255, 174, 0);
+}
+/*HOME PAGE CONTENT*/
+
+.main {
+    background: url('../imgs/pharmacy-background.jpg') no-repeat center center/cover;
+    height: 100%;
+}
+.main_content {
+    background-color: rgba(47, 79, 79, 0.589); 
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_content h1 {
+    font-size: 60px;
+    color: rgb(255, 174, 0);
+}
+.main_content p {
+    font-size: 32px;
+    color: rgb(212, 184, 104);
+}
+
+/*PRODUCTS PAGE CONTENT*/
+.main2 {
+    height: 100%;
+}
+.main_content2 {
+    background-color: rgba(47, 79, 79, 0.589); 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_content2 h1 {
+    padding: 20px;
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: rgb(248, 175, 40);
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.products img{
+    max-width: 50%;
+    max-height: 50%;
+}
+.product_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_description {
+    font-size: 25px;
+}
+.price {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+.button {
+    background-color: darkslategray;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: darkgray;
+}
+/*INFORMATION PAGE CONTENT*/
+.main3 {
+    height: 100%;
+}
+.main_content3 {
+    background-color: rgba(47, 79, 79, 0.589); 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.main_content3 ul {
+    list-style: none;
+}
+.main_content3 h1 {
+    padding: 20px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: rgb(248, 175, 40);
+}
+/*FOOTER AND COPYRIGHT*/
+.footer {
+    background-color: darkslategray;
+    color: rgb(255, 174, 0);
+    text-align: center;
+    padding: 20px;
+}
